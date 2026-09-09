@@ -1,0 +1,164 @@
+{
+  "checkpoint_sha256": "9ded0d6a1b15a324593217cb2c0d9d089f7aba83e8d5ed016dd27d7888d6f3a4",
+  "threshold": 0.5,
+  "trained_epochs": 26,
+  "provenance": {
+    "dataset_kind": "synthetic",
+    "manifest_sha256": "59241d9b8b642f3361a839587bb4469e9c3470d7f6b550b6402e2f17d4325959",
+    "training_boreholes": [
+      "SYNTH_train"
+    ],
+    "validation_boreholes": [
+      "SYNTH_val"
+    ],
+    "channels": [
+      "optical"
+    ],
+    "labelled_files": [
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_00.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_00_mask.png",
+        "split": "train",
+        "image_sha256": "4535fdae5b6f068c34b03180039b9796c762c5271b8d6edc518c802a5438b010",
+        "mask_sha256": "53d80f5170a4dc3ea21cd7da37ae592e19915b220904eb534ce17abdce3165fd"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_01.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_01_mask.png",
+        "split": "train",
+        "image_sha256": "e02c60edbfbf83d33e1a083ddba90409d142793d21f4fbabc31be69510bd1b33",
+        "mask_sha256": "6b513fac4bd1e65cd5c2ef18128619e149f1ed941fcd5d32b38f3d17f5336cec"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_02.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_02_mask.png",
+        "split": "train",
+        "image_sha256": "ff1b9a62682936457eee3058c1a8317b5abf10238a3036c2f3d94c8fe5a49efe",
+        "mask_sha256": "c83e877d4df00e216c6cc6b8c582f8a11245bc3809b1824c758a97ba6dda2f5f"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_03.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_03_mask.png",
+        "split": "train",
+        "image_sha256": "4d0584e0f89c12b0ced5b0d013d5a88dabaab2ca1801d596b744d512bbe6abaf",
+        "mask_sha256": "6edea5e40fcc0d8ee159c072aa39383f109261527e5e75890a5c0ae7c65a7676"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_04.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_04_mask.png",
+        "split": "train",
+        "image_sha256": "317d61ab6ba487d736be81e373cc0fc28e7b8f2eb9d9d8b27d5ce32eb613a5e9",
+        "mask_sha256": "4ca6391eee72ffffb8ee14d5616395642d793ca1ea76d5077e90aa6f1b881269"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_05.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_05_mask.png",
+        "split": "train",
+        "image_sha256": "67fa233fa64ffce81c22d4fbdc427e5a4af93d0b75b0b8e7abbde12d62913f32",
+        "mask_sha256": "4f6b9e5f5d7295865e9e716aa956b6fd351c0d1793d4742c378059744dada3ca"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_06.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_06_mask.png",
+        "split": "train",
+        "image_sha256": "4e4c5827705d10215d77fcb83d370c9175d17b5352935d1852e7d6198fc16605",
+        "mask_sha256": "dc41dfc9520229df09497543593386fa505d9af4ae5ee55b14cf7302f0819425"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_07.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_07_mask.png",
+        "split": "train",
+        "image_sha256": "ad4f1bece011692962728b3517c3fb4306d67fd123d58005c82bc8be3001b7da",
+        "mask_sha256": "c93cf9b79676893d0f2c2435e8af26050a898a62c3a4029b1d6ddf5022b7e3a8"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_08.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_08_mask.png",
+        "split": "train",
+        "image_sha256": "93fc3ca18cd8969900a7a87feb396a2c866424a20870900ec37afa201b315220",
+        "mask_sha256": "bd4f0d79b3b49e5070a037fe58820670dfaebd30d468255e969c27a26550e1aa"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_09.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_09_mask.png",
+        "split": "train",
+        "image_sha256": "155cb42078208e733eb92e5394cc5527a84593baf5cb476a8035c0667f325f17",
+        "mask_sha256": "4ef7e7b8ee26221ad56407d9fbc3db1c29dabc10753aefdacb123f0580e46694"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_10.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_10_mask.png",
+        "split": "train",
+        "image_sha256": "be5094d1e15d9d306d99bef30a6ffb581ee5e191582b739a1224634f8fbd05c0",
+        "mask_sha256": "7266af36b17575b96106fdee2b4b0cfd1ee8a8b4c873aade3c7ba17866718cf4"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_11.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_11_mask.png",
+        "split": "train",
+        "image_sha256": "f9fbdf5913d05cc96ff22237715b4c5257a3aa3e32b2a87f3286a62cb5c95adc",
+        "mask_sha256": "db74316fe9713e8307c00c2b71be94e469c606fbbb226057e4f4e28a7c04bb5f"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_12.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_12_mask.png",
+        "split": "train",
+        "image_sha256": "cb5804dff918c464afdf36a969c13c998e2b99141eb531677a1c482f4bd31981",
+        "mask_sha256": "fb6e07c8f32c7523c43a5b41a013370da4beaa108fd92bbd53c2535e1b9c0aaa"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_13.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_13_mask.png",
+        "split": "train",
+        "image_sha256": "6a00c3c277efa78f0dc09e2ae7eab0ca023960911cc745bf4875100fa7995114",
+        "mask_sha256": "e067c3b9555a629928506b45b3c31b81f7c9707eb9371a441ed48dedb8486cdb"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_14.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_14_mask.png",
+        "split": "train",
+        "image_sha256": "a5e3dd5303122411589114c3dd2d6417e4cb03b37c8c1a1c959110c153d4a048",
+        "mask_sha256": "c8e3454830ad3644d9c01f67fb45b8ea0c6cff7dd0b3d1a7e36b1b8207af2b82"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_15.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\train_15_mask.png",
+        "split": "train",
+        "image_sha256": "1dad5c168680538b236ae183a22b3f8c8760f0d172240ed9690868ca279876d3",
+        "mask_sha256": "8c7887414d4ba4c058f8a8953bb1dc2bf88c609c8841d889b72a994f96c98e54"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\val_00.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\val_00_mask.png",
+        "split": "val",
+        "image_sha256": "6a7e703b5d7e686c2e81d674fb819ee48e14efa488b3811a3fd1d741a868a26b",
+        "mask_sha256": "fa7748baef6252c9b9633d37ee082664151d0a47ca04b2eac2d268be484952d5"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\val_01.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\val_01_mask.png",
+        "split": "val",
+        "image_sha256": "ba7e37266142e9820f60b57624a0e1385b5ac41dd015a35178b60834f1267c0f",
+        "mask_sha256": "2427354ba116a94dacc0c9cd771f2962c822d520a4d07bd154eccf53a7ded27a"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\val_02.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\val_02_mask.png",
+        "split": "val",
+        "image_sha256": "679399c66131898d3cc9850bc9a4d280e3053b81757682979b7becdd95287a8e",
+        "mask_sha256": "ae61a7a4d6e8e338148b0468f5987fe009cd8e0894232f596cad3869ff9c726a"
+      },
+      {
+        "image": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\val_03.png",
+        "mask": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\televiewer_pipeline\\unet_demo\\data\\val_03_mask.png",
+        "split": "val",
+        "image_sha256": "9e8fb8c8b19e2c94663afad6dc3908b0f40002bb596117c0c7f453aa7f2058e4",
+        "mask_sha256": "36bcb374bc86d3d565b99654dc4a491bce233fb3d3bd41299c8f7ffdb2006b16"
+      }
+    ],
+    "source_sha256": "22f89425a699dea6d942ebc8904ea125409df2fd6c070280908731cc6e62a19e",
+    "torch_version": "2.14.0+cpu",
+    "seed": 42,
+    "label_definition": "Synthetic narrow planar traces"
+  }
+}

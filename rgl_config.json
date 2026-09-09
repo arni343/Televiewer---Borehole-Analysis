@@ -1,0 +1,147 @@
+{
+  "detector": {
+    "max_amplitude_px": 100,
+    "amplitude_step_px": 4,
+    "phase_step_deg": 12,
+    "min_support": 0.5,
+    "ridge_threshold": 2
+  },
+  "logs": [
+    {
+      "borehole": "BH01",
+      "image": "../BH01_TeleviewerLog_With Picks.bmp",
+      "expected_size": [
+        1017,
+        2911
+      ],
+      "header_end_row": 113,
+      "data_end_row": 2908,
+      "depth_anchors": [
+        [
+          224,
+          0.4
+        ],
+        [
+          336,
+          0.8
+        ]
+      ],
+      "diameter_m": null,
+      "image_frame_to_ned": null,
+      "tracks": [
+        {
+          "name": "optical",
+          "x_bounds": [
+            103,
+            254
+          ],
+          "annotated": false
+        },
+        {
+          "name": "acoustic",
+          "x_bounds": [
+            255,
+            406
+          ],
+          "annotated": true
+        }
+      ]
+    },
+    {
+      "borehole": "BH02",
+      "image": "../BH02_TeleviewerLog_With Picks.bmp",
+      "expected_size": [
+        1061,
+        8039
+      ],
+      "header_end_row": 110,
+      "data_end_row": 8036,
+      "depth_anchors": [
+        [
+          518,
+          0
+        ],
+        [
+          630,
+          0.4
+        ]
+      ],
+      "diameter_m": null,
+      "image_frame_to_ned": null,
+      "tracks": [
+        {
+          "name": "optical",
+          "x_bounds": [
+            54,
+            212
+          ],
+          "annotated": false
+        },
+        {
+          "name": "acoustic",
+          "x_bounds": [
+            213,
+            371
+          ],
+          "annotated": false
+        },
+        {
+          "name": "travel_time",
+          "x_bounds": [
+            372,
+            530
+          ],
+          "annotated": true
+        }
+      ]
+    },
+    {
+      "borehole": "BH03",
+      "image": "../BH03_TeleviewerLog.bmp",
+      "expected_size": [
+        1061,
+        25889
+      ],
+      "header_end_row": 973,
+      "data_end_row": 25886,
+      "depth_anchors": [
+        [
+          1490,
+          2.4
+        ],
+        [
+          1602,
+          2.8
+        ]
+      ],
+      "diameter_m": null,
+      "image_frame_to_ned": null,
+      "tracks": [
+        {
+          "name": "optical",
+          "x_bounds": [
+            107,
+            292
+          ],
+          "annotated": false
+        },
+        {
+          "name": "acoustic",
+          "x_bounds": [
+            293,
+            477
+          ],
+          "annotated": false
+        },
+        {
+          "name": "travel_time",
+          "x_bounds": [
+            478,
+            663
+          ],
+          "annotated": false
+        }
+      ]
+    }
+  ]
+}

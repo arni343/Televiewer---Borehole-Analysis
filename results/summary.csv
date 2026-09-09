@@ -1,0 +1,9 @@
+borehole,channel,candidate_count,valid_pixels,masked_annotation_pixels,annotated_input,physical_dip_available,seconds
+BH01,optical,8,234956,0,False,False,15.46
+BH01,acoustic,8,195420,6843,True,False,15.27
+BH02,optical,20,701678,0,False,False,15.15
+BH02,acoustic,0,692356,0,False,False,5.39
+BH02,travel_time,0,623598,13769,True,False,5.52
+BH03,optical,1044,4532130,0,False,False,823.11
+BH03,acoustic,692,3859768,0,False,False,357.95
+BH03,travel_time,0,3880745,0,False,False,41.5

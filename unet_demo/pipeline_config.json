@@ -1,0 +1,127 @@
+{
+  "logs": [
+    {
+      "borehole": "SYNTH_UNET_0",
+      "image": "data/test_00.png",
+      "expected_size": [
+        96,
+        96
+      ],
+      "header_end_row": 0,
+      "data_end_row": 96,
+      "tracks": [
+        {
+          "name": "optical",
+          "x_bounds": [
+            0,
+            96
+          ],
+          "annotated": false,
+          "unet_checkpoint": "model_v2/best.pt",
+          "allow_synthetic_checkpoint": true,
+          "truth_csv": "test_00_reference.csv",
+          "reviewed_intervals": [
+            [
+              0,
+              96
+            ]
+          ],
+          "match_tolerance_px": 4.0
+        }
+      ]
+    },
+    {
+      "borehole": "SYNTH_UNET_1",
+      "image": "data/test_01.png",
+      "expected_size": [
+        96,
+        96
+      ],
+      "header_end_row": 0,
+      "data_end_row": 96,
+      "tracks": [
+        {
+          "name": "optical",
+          "x_bounds": [
+            0,
+            96
+          ],
+          "annotated": false,
+          "unet_checkpoint": "model_v2/best.pt",
+          "allow_synthetic_checkpoint": true,
+          "truth_csv": "test_01_reference.csv",
+          "reviewed_intervals": [
+            [
+              0,
+              96
+            ]
+          ],
+          "match_tolerance_px": 4.0
+        }
+      ]
+    },
+    {
+      "borehole": "SYNTH_UNET_2",
+      "image": "data/test_02.png",
+      "expected_size": [
+        96,
+        96
+      ],
+      "header_end_row": 0,
+      "data_end_row": 96,
+      "tracks": [
+        {
+          "name": "optical",
+          "x_bounds": [
+            0,
+            96
+          ],
+          "annotated": false,
+          "unet_checkpoint": "model_v2/best.pt",
+          "allow_synthetic_checkpoint": true,
+          "truth_csv": "test_02_reference.csv",
+          "reviewed_intervals": [
+            [
+              0,
+              96
+            ]
+          ],
+          "match_tolerance_px": 4.0
+        }
+      ]
+    },
+    {
+      "borehole": "SYNTH_UNET_3",
+      "image": "data/test_03.png",
+      "expected_size": [
+        96,
+        96
+      ],
+      "header_end_row": 0,
+      "data_end_row": 96,
+      "tracks": [
+        {
+          "name": "optical",
+          "x_bounds": [
+            0,
+            96
+          ],
+          "annotated": false,
+          "unet_checkpoint": "model_v2/best.pt",
+          "allow_synthetic_checkpoint": true,
+          "truth_csv": "test_03_reference.csv",
+          "reviewed_intervals": [
+            [
+              0,
+              96
+            ]
+          ],
+          "match_tolerance_px": 4.0
+        }
+      ]
+    }
+  ],
+  "detector": {
+    "max_amplitude_px": 24
+  }
+}

@@ -1,0 +1,3 @@
+center_row_px,sin_coefficient_px,cos_coefficient_px,amplitude_px,phase_deg,support_fraction,valid_fraction,sectors,max_gap_fraction,rmse_px,quality_score,support_excess,longest_chain_fraction,review_flag,feature_type,evidence_kind
+179.98740114119352,42.02423936724284,-9.613346292953779,43.10977988048154,347.1148847532382,1.0,1.0,8,0.0,0.3120651858290804,0.9012057152612186,1.0,1.0,,unclassified_planar_candidate,dark_ridge
+419.981140416839,-21.991755976490133,-5.80312432683394,22.74452863618372,194.7821031740925,1.0,1.0,8,0.0,0.3147575202950217,0.9003972956687657,1.0,1.0,,unclassified_planar_candidate,dark_ridge

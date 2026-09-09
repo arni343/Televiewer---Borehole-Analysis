@@ -1,0 +1,2 @@
+borehole,channel,candidate_count,valid_pixels,masked_annotation_pixels,annotated_input,physical_dip_available,seconds
+SYNTHETIC,optical,2,94720,0,False,True,2.15

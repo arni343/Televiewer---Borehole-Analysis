@@ -1,0 +1,5 @@
+borehole,channel,candidate_count,valid_pixels,masked_annotation_pixels,annotated_input,physical_dip_available,seconds
+SYNTH_UNET_0,optical,1,8448,0,False,False,3.13
+SYNTH_UNET_1,optical,1,8448,0,False,False,0.58
+SYNTH_UNET_2,optical,1,8448,0,False,False,0.48
+SYNTH_UNET_3,optical,1,8448,0,False,False,0.56

@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-09-08T21:19:01.488554+00:00",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "script_sha256": "6e91feef382f98f6d78530b289daed5205f5bf985190190285a742d0cb7571a7",
+  "inputs": {
+    "BH01": {
+      "path": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\BH01_TeleviewerLog_With Picks.bmp",
+      "sha256": "6e3422663f4716b92b8c4cb0251426ba5f22ad865e9b2e5cba0bd99e4ca0f460"
+    },
+    "BH02": {
+      "path": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\BH02_TeleviewerLog_With Picks.bmp",
+      "sha256": "c725012b44a721e99ea876a6ee2b848fa21a61672633e28c3d56d9752a6b2693"
+    },
+    "BH03": {
+      "path": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\BH03_TeleviewerLog.bmp",
+      "sha256": "70b09fa862d0322670fa675fe6f746bb22bd2c89e2787b931502cb30a7e78802"
+    }
+  },
+  "segmentation_models": {},
+  "validation_status": "No accuracy claim without independent expert labels."
+}

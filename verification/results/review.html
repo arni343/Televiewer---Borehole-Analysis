@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>RGL candidate review</title><style>
+body{font:15px system-ui,sans-serif;margin:24px;color:#152334;background:#f8fafc}
+h1{font-size:26px}p{max-width:1000px;line-height:1.5}.controls{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+input,select,button{padding:7px}table{border-collapse:collapse;background:white;width:100%;font-size:13px}
+td,th{border:1px solid #d8e0e8;padding:7px;text-align:left}thead{position:sticky;top:0;background:#e7eef7}
+.table-wrap{max-height:550px;overflow:auto;margin-top:15px}meter{width:85px}
+details{margin:15px 0;padding:15px;background:white;border:1px solid #d8e0e8}img{max-width:100%;height:auto}
+summary,button{cursor:pointer}.notice{padding:14px;border-left:4px solid #c48c21;background:#fff6df}
+</style><h1>RGL televiewer candidate review</h1>
+<p class="notice">These are unclassified planar candidates. Fit quality ranks image support and is
+<strong>not a probability</strong> of a correct geological interpretation. Accepting candidates here does not
+label missed features. Independent accuracy requires fully reviewed intervals and reference traces.
+Annotated acoustic images are exploratory only; empty dip values mean missing calibration.</p>
+<p>Use the page images below to review candidates by ID. Choose accept, reject or uncertain, then download
+the decisions CSV. Decisions remain in this tab until downloaded; nothing is sent to a server.</p>
+<div class="controls"><label>Find borehole/channel <input id="search" type="search" placeholder="e.g. BH03 optical"></label>
+<label>Minimum fit quality <input id="threshold" type="range" min="0" max="1" value="0" step=".05">
+<output id="value">0.00</output></label><button id="download">Download reviewed decisions</button>
+<span id="count"></span></div>
+<div class="table-wrap"><table><thead><tr><th>Borehole</th><th>Track</th><th>ID</th>
+<th>Report row</th><th>Depth m*</th><th>Amplitude px</th><th>Relative dip deg</th><th>Input</th>
+<th>Fit quality</th><th>Review flag</th><th>Decision</th></tr></thead><tbody><tr data-score="0.8667984431541891" data-key="0"><td>SYNTHETIC</td><td>optical</td><td>1</td><td>290.0</td><td>2.900</td><td>57.0</td><td>80.05200986983101</td><td>Unpicked report</td><td><meter min="0" max="1" value="0.8667984431541891"></meter> 0.87</td><td></td><td><select aria-label="Review decision for candidate 0"><option value="">Unreviewed</option><option>accept</option><option>reject</option><option>uncertain</option></select></td></tr><tr data-score="0.8497510210995374" data-key="1"><td>SYNTHETIC</td><td>optical</td><td>2</td><td>290.0</td><td>2.900</td><td>63.2</td><td>81.01214836953288</td><td>Unpicked report</td><td><meter min="0" max="1" value="0.8497510210995374"></meter> 0.85</td><td></td><td><select aria-label="Review decision for candidate 1"><option value="">Unreviewed</option><option>accept</option><option>reject</option><option>uncertain</option></select></td></tr></tbody></table></div>
+<p>* Depth uses provisional report-tick calibration. Amplitude is half the peak-to-trough height.
+<a href="index.html">Analysis overview</a> | <a href="all_candidates.csv">All candidate parameters</a></p>
+<h2>Review images</h2>
+<script>
+const records=[{"center_row_px": "290.0000835300483", "sin_coefficient_px": "-55.015791979864815", "cos_coefficient_px": "-14.967303741593902", "amplitude_px": "57.01541500738979", "phase_deg": "195.21924384288116", "support_fraction": "0.975", "valid_fraction": "1.0", "sectors": "8", "max_gap_fraction": "0.00625", "rmse_px": "0.33408415322367363", "quality_score": "0.8667984431541891", "support_excess": "0.975", "longest_chain_fraction": "1.0", "review_flag": "", "feature_type": "unclassified_planar_candidate", "evidence_kind": "dark_ridge", "candidate_id": "1", "borehole": "SYNTHETIC", "channel": "optical", "annotated_input": "False", "calibration_status": "provisional_report_ticks", "geographic_orientation_status": "provided", "depth_m": "2.900000835300483", "amplitude_m": "0.5701541500738979", "borehole_relative_dip_deg": "80.05200986983101", "true_dip_deg": "80.05200986983101", "true_dip_azimuth_deg": "254.78075615711884"}, {"center_row_px": "290.01406269721844", "sin_coefficient_px": "59.99292884770121", "cos_coefficient_px": "19.953878626302824", "amplitude_px": "63.22427369261401", "phase_deg": "18.39732349589572", "support_fraction": "0.96875", "valid_fraction": "1.0", "sectors": "8", "max_gap_fraction": "0.0125", "rmse_px": "0.3554532247145829", "quality_score": "0.8497510210995374", "support_excess": "0.96875", "longest_chain_fraction": "0.9875", "review_flag": "", "feature_type": "unclassified_planar_candidate", "evidence_kind": "dark_ridge", "candidate_id": "2", "borehole": "SYNTHETIC", "channel": "optical", "annotated_input": "False", "calibration_status": "provisional_report_ticks", "geographic_orientation_status": "provided", "depth_m": "2.9001406269721843", "amplitude_m": "0.6322427369261402", "borehole_relative_dip_deg": "81.01214836953288", "true_dip_deg": "81.01214836953288", "true_dip_azimuth_deg": "71.60267650410428"}];
+const rows=[...document.querySelectorAll('tbody tr')];
+const search=document.querySelector('#search'),threshold=document.querySelector('#threshold');
+function filter(){
+ const terms=search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+ let shown=0;
+ for(const row of rows){row.hidden=Number(row.dataset.score)<Number(threshold.value)||
+ !terms.every(t=>row.textContent.toLowerCase().includes(t));if(!row.hidden)shown++;}
+ document.querySelector('#value').textContent=Number(threshold.value).toFixed(2);
+ document.querySelector('#count').textContent=shown+' / '+rows.length+' candidates shown';
+}
+search.addEventListener('input',filter);threshold.addEventListener('input',filter);filter();
+document.querySelector('#download').addEventListener('click',()=>{
+ const reviewed=rows.filter(r=>r.querySelector('select').value).map(r=>({...records[Number(r.dataset.key)],
+ review_decision:r.querySelector('select').value}));
+ if(!reviewed.length){alert('Choose at least one review decision first.');return;}
+ const keys=[...new Set(reviewed.flatMap(Object.keys))];
+ const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';
+ const lines=[keys.map(quote).join(','),...reviewed.map(r=>keys.map(k=>quote(r[k])).join(','))];
+ const url=URL.createObjectURL(new Blob([lines.join('\r\n')],{type:'text/csv;charset=utf-8'}));
+ const a=document.createElement('a');a.href=url;a.download='review_decisions.csv';a.click();
+ setTimeout(()=>URL.revokeObjectURL(url),1000);
+});
+</script></html>

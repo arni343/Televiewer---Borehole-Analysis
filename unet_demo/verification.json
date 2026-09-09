@@ -1,0 +1,21 @@
+{
+  "regression_tests": 25,
+  "synthetic_pixel_metrics": {
+    "split": "test",
+    "dataset_kind": "synthetic",
+    "tp": 1209,
+    "fp": 10,
+    "fn": 24,
+    "tn": 35621,
+    "dice": 0.9861337683523654,
+    "iou": 0.9726468222043443,
+    "precision": 0.9917965545529123,
+    "recall": 0.9805352798053528
+  },
+  "synthetic_trace_counts": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  },
+  "interpretation": "Synthetic demonstration only. The test scenes were also used to diagnose the initial border-mask integration issue; these are not unbiased field generalization estimates."
+}

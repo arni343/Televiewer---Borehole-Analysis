@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-08T13:34:45.632529+00:00",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "script_sha256": "01363f4785af2dd748e9bbf9839143c432f2da9e21820dd400c268f8f3d1b6cc",
+  "inputs": {
+    "BH02": {
+      "path": "C:\\Users\\ARNAV BHAT\\OneDrive\\Documents\\microint\\Codex_handover\\BH02_TeleviewerLog_With Picks.bmp",
+      "sha256": "c725012b44a721e99ea876a6ee2b848fa21a61672633e28c3d56d9752a6b2693"
+    }
+  },
+  "validation_status": "No accuracy claim without independent expert labels."
+}

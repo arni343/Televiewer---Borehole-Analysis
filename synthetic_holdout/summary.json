@@ -1,0 +1,12 @@
+{
+  "seed_start": 2000,
+  "scenes": 20,
+  "true_features": 40,
+  "tp": 40,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "interpretation": "Synthetic engineering checks only; not RGL field accuracy."
+}

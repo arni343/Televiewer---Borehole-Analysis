@@ -1,0 +1,198 @@
+{
+  "dataset_kind": "synthetic",
+  "label_definition": "Synthetic narrow planar traces",
+  "samples": [
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_00.png",
+      "mask": "train_00_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_01.png",
+      "mask": "train_01_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_02.png",
+      "mask": "train_02_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_03.png",
+      "mask": "train_03_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_04.png",
+      "mask": "train_04_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_05.png",
+      "mask": "train_05_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_06.png",
+      "mask": "train_06_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_07.png",
+      "mask": "train_07_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_08.png",
+      "mask": "train_08_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_09.png",
+      "mask": "train_09_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_10.png",
+      "mask": "train_10_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_11.png",
+      "mask": "train_11_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_12.png",
+      "mask": "train_12_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_13.png",
+      "mask": "train_13_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_14.png",
+      "mask": "train_14_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_train",
+      "split": "train",
+      "channel": "optical",
+      "image": "train_15.png",
+      "mask": "train_15_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_val",
+      "split": "val",
+      "channel": "optical",
+      "image": "val_00.png",
+      "mask": "val_00_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_val",
+      "split": "val",
+      "channel": "optical",
+      "image": "val_01.png",
+      "mask": "val_01_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_val",
+      "split": "val",
+      "channel": "optical",
+      "image": "val_02.png",
+      "mask": "val_02_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_val",
+      "split": "val",
+      "channel": "optical",
+      "image": "val_03.png",
+      "mask": "val_03_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_test",
+      "split": "test",
+      "channel": "optical",
+      "image": "test_00.png",
+      "mask": "test_00_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_test",
+      "split": "test",
+      "channel": "optical",
+      "image": "test_01.png",
+      "mask": "test_01_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_test",
+      "split": "test",
+      "channel": "optical",
+      "image": "test_02.png",
+      "mask": "test_02_mask.png",
+      "annotated_input": false
+    },
+    {
+      "borehole": "SYNTH_test",
+      "split": "test",
+      "channel": "optical",
+      "image": "test_03.png",
+      "mask": "test_03_mask.png",
+      "annotated_input": false
+    }
+  ]
+}

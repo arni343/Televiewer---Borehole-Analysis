@@ -1,0 +1,23 @@
+{
+  "tp": 1,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "trace_mae_px": 0.1247443937358655,
+  "center_row_px_mae": 0.12474439373586677,
+  "center_row_px_matched_count": 1,
+  "amplitude_px_mae": 0.04726488741241219,
+  "amplitude_px_matched_count": 1,
+  "depth_m_mae": null,
+  "depth_m_matched_count": 0,
+  "borehole_relative_dip_deg_mae": null,
+  "borehole_relative_dip_deg_matched_count": 0,
+  "true_dip_deg_mae": null,
+  "true_dip_deg_matched_count": 0,
+  "true_dip_azimuth_deg_mae": null,
+  "true_dip_azimuth_deg_matched_count": 0,
+  "phase_deg_mae": 0.35914723183117303,
+  "phase_deg_matched_count": 1
+}

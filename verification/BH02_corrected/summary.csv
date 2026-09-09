@@ -1,0 +1,3 @@
+borehole,channel,candidate_count,valid_pixels,masked_annotation_pixels,annotated_input,physical_dip_available,seconds
+BH02,optical,20,701678,0,False,False,15.27
+BH02,acoustic,0,692356,0,False,False,5.38
