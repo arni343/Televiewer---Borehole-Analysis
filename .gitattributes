@@ -1,0 +1,6 @@
+results/** linguist-generated=true
+verification/**/results/** linguist-generated=true
+unet_demo/results/** linguist-generated=true
+synthetic_benchmark/** linguist-generated=true
+synthetic_holdout/** linguist-generated=true
+*.html linguist-generated=true
