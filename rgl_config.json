@@ -9,7 +9,7 @@
   "logs": [
     {
       "borehole": "BH01",
-      "image": "../BH01_TeleviewerLog_With Picks.bmp",
+      "image": "data/BH01_TeleviewerLog_With Picks.bmp",
       "expected_size": [
         1017,
         2911
@@ -49,7 +49,7 @@
     },
     {
       "borehole": "BH02",
-      "image": "../BH02_TeleviewerLog_With Picks.bmp",
+      "image": "data/BH02_TeleviewerLog_With Picks.bmp",
       "expected_size": [
         1061,
         8039
@@ -97,7 +97,7 @@
     },
     {
       "borehole": "BH03",
-      "image": "../BH03_TeleviewerLog.bmp",
+      "image": "data/BH03_TeleviewerLog.bmp",
       "expected_size": [
         1061,
         25889
