@@ -1,14 +1,15 @@
 # RGL televiewer proof of principle
 
-This replaces the exploratory script with a reproducible classical computer-vision baseline. It detects **unclassified planar candidates**, not confirmed fractures. It follows the project sequence: image preparation -> candidate pixels -> sinusoid detection -> robust fitting -> geometric parameters -> reference comparison.
+This replaces the exploratory script with a reproducible classical computer-vision baseline. It follows the project sequence: image preparation -> candidate pixels -> sinusoid detection -> robust fitting -> geometric parameters -> reference comparison.
 
-The default RGL configuration selects the classical baseline. A trainable U-Net and its direct Hough integration are also implemented; see [UNET_GUIDE.md](UNET_GUIDE.md). The included checkpoint is synthetic-trained, not RGL-trained. This is not a complete reproduction of Al-Sit's texture-segmentation method, or a field-validated geological interpretation system. The supplied files do not establish a measurable "best" model or perfect compliance with an unseen marking rubric.
+The default RGL configuration selects the classical baseline. A trainable U-Net and its direct Hough integration are also implemented; see [UNET_GUIDE.md](UNET_GUIDE.md). The included checkpoint is synthetic-trained, not RGL-trained.
 
 ## Start here
 
 From PowerShell, in this folder:
 
 ~~~powershell
+python --version
 python -m pip install -r requirements.txt
 python -B -m unittest discover -v
 python -B benchmark.py
